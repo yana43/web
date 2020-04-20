@@ -1,0 +1,44 @@
+body
+{
+    background-image: url('fon.jpg');
+}
+h1,h2
+{
+  /* text-shadow: rgb(0, 0, 0) 1px 2px 2px; */
+}
+a[href]
+{
+  color:rgb(37, 37, 33);
+  text-decoration: none;
+}
+
+a[href]:hover
+{
+  color:rgba(57, 36, 66, 0.644);
+}
+
+a[href]:visited
+{
+  color:  rgba(89, 28, 97, 0.808);
+}
+ input,textarea
+{
+  border: none; 
+  padding:1.4ex;
+  background:#FFFFF0;
+  color:rgb(31, 31, 16);
+  border-radius: 5px;
+}
+button
+{
+  border: white 2px solid;
+  box-shadow: none;
+  background: #AB9C57;
+  color:rgb(24, 24, 20);
+}
+/* hr 
+{
+  height: 3px;
+  background:rgb(46, 44, 42);
+  border: none;
+}
